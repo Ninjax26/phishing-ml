@@ -16,11 +16,31 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm optuna
 
 ## Dataset
 
+Dataset used:
+
+- `PhiUSIIL Phishing URL Dataset`
+
 Expected file in project root:
 
 - `PhiUSIIL_Phishing_URL_Dataset.csv`
 
-If you have `PhiUSIIL_Phishing_URL_Dataset.csv.zip`, extract it first:
+### Download Options
+
+Option 1 (recommended): use the dataset zip included in this repository:
+
+- `PhiUSIIL_Phishing_URL_Dataset.csv.zip`
+
+Then extract it in the project root:
+
+```bash
+unzip -o "PhiUSIIL_Phishing_URL_Dataset.csv.zip"
+```
+
+Option 2: download the same dataset separately and place the CSV in the project root as:
+
+- `PhiUSIIL_Phishing_URL_Dataset.csv`
+
+If you have a zip file, extract it first:
 
 ```bash
 unzip -o "PhiUSIIL_Phishing_URL_Dataset.csv.zip"

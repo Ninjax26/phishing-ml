@@ -9,6 +9,7 @@ __pycache__/
 *.joblib
 *.zip
 *.csv
+!PhiUSIIL_Phishing_URL_Dataset.csv.zip
 
 # Generated plots
 *.png
